@@ -1,0 +1,264 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Main styles */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 40px;
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* <p> without margins */
+.no-margin-p {
+  margin: 0px;
+}
+
+/* Main content styles */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+.main-content {
+  background-color: #ffffff;
+  padding: 105px 90px 105px 90px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content title styles */
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* About user style */
+.about {
+  margin-bottom: 40px;
+}
+
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.about-description {
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-top: 0px;
+  width: 400px;
+}
+
+/* Projects style */
+/* ---------------------------------------------------------------------- */
+
+.projects {
+  margin-bottom: 50px;
+}
+
+.projects-list {
+  padding: 0px;
+  margin-left: 15px;
+}
+
+.project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-link {
+  margin-left: 10px;
+}
+
+.project-bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Work positions styles */
+/* ---------------------------------------------------------------------- */
+
+.work {
+}
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.organization {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work-list {
+  padding: 0px;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* Education places styles */
+.education-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+
+.profession {
+  ont-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* Sidebar styles */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+.sidebar {
+  background-color: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+
+/* User photo styles */
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+/* Sidebar title styles */
+.sidebar-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+/* Sidebar blocks styles */
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin-left: 40px;
+}
+
+.contacts {
+  margin-bottom: 50px;
+}
+
+/* Contact type styles */
+.contact-type {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+/*  Contact link styles */
+.contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #575f6b;
+}
+
+.tech-skills {
+  margin-bottom: 45px;
+}
+
+/* Skills list styles */
+.tech-skills-list,
+.soft-skills-list {
+  padding: 0px;
+  margin: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fb6d3a;
+}
+
+.tech-skills-text,
+.soft-skills-text {
+  color: #ffffff;
+}
