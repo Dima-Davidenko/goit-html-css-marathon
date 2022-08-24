@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
 }
 
@@ -117,9 +117,10 @@ body {
 
 /* Work positions styles */
 /* ---------------------------------------------------------------------- */
-
 .work {
+  margin-bottom: 45px;
 }
+
 .work-position {
   font-style: normal;
   font-weight: 700;
@@ -155,6 +156,8 @@ body {
 }
 
 .work-list {
+  width: 450px;
+  text-align: justify;
   padding: 0px;
   margin-left: 15px;
 }
@@ -178,7 +181,7 @@ body {
 }
 
 .profession {
-  ont-style: normal;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
